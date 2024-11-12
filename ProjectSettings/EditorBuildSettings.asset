@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Common Scene/Start Scene.unity
+    guid: 37c8ef00d95ff12408032c759628502f
+  - enabled: 1
+    path: Assets/Scenes/Single Player/SIngle Player Main Menu.unity
+    guid: 2ae139557925aed4e8bd5ce04d19109d
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/Enter Username.unity
+    guid: c178c1bd9ab38344aa9a3aca8c651037
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/Start Menu.unity
+    guid: 820ae39038a3bea45849aa828a500f06
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/CreatAndJoinRoom.unity
+    guid: 2c910505a7022cb45b11bfbb3fb7e6e1
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/Lobby.unity
+    guid: fd6dcbc0e7b51f24aafe67657858ef8c
+  - enabled: 1
+    path: Assets/Scenes/Common Scene/Set Senstivity.unity
+    guid: 3abed45ed2cdef54da0620bf96be0f36
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/Level 1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Common Scene/Game Over.unity
+    guid: f2e6054d0b15bc545941be7fff2093ea
+  - enabled: 1
+    path: Assets/Scenes/Single Player/Single Player Level 1.unity
+    guid: 588b26bfce6a7ea4fb1f76fcddad923e
+  m_configObjects: {}
