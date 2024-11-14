@@ -13,13 +13,17 @@ public class GameOver : MonoBehaviour
     {
         gameWonScreen.SetActive(false);
         gameLostScreen.SetActive(false);
-        if(isWon) gameWonScreen.SetActive(true);
+    }
+
+    private void Update()
+    {
+        if (isWon) gameWonScreen.SetActive(true);
         else
         {
             gameWonScreen.SetActive(false);
         }
 
-        if(!isWon) gameLostScreen.SetActive(true);
+        if (!isWon) gameLostScreen.SetActive(true);
         else
         {
             gameLostScreen.SetActive(false);
